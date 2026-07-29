@@ -85,13 +85,11 @@ transition: transform 0.5s ease;
     width: 100%;
     padding: 20px;
     color: aliceblue;
-    background: linear-gradient(to top rgba(0,0,0,0.9), transparent
-    );
+    background: linear-gradient(to top, rgba(0,0,0,0.9), transparent);
     /*começa deslocando para baixo e invisivel*/
     transform: translateY(60%);
     opacity: 0;
-    transition: transform 0.4s ease;
-    opacity: 0.4s ease;
+    transition: transform 0.4s ease, opacity 0.4s ease;
 }
 /*ao passar o mouse no card, o conteudo aparec*/
 .card:hover .card-conteudo{
@@ -106,7 +104,7 @@ transition: transform 0.5s ease;
 .card-conteudo p{
     font-size: 0.9rem;
     margin-bottom: 14px;
-    opacity: 0,9;
+    opacity: 0.9;
 }
 .btn{
     display: inline-block;
@@ -117,5 +115,16 @@ transition: transform 0.5s ease;
     border-radius: 30px;
     font-size: 0.85rem;
     font-weight: bold;
-    transition: background 0.3 ease;
+    transition: background 0.3s ease;
+}
+.btn:hover{
+     background: #530000;
+
+}
+/*responsivo*/
+@media (max-width: 600px) {
+.card{
+    width:90%;
+    height: 320px;
+}
 }
