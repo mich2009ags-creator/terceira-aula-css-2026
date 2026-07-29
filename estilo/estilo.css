@@ -118,7 +118,7 @@ transition: transform 0.5s ease;
     transition: background 0.3s ease;
 }
 .btn:hover{
-     background: #530000;
+     background: #db3030;
 
 }
 /*responsivo*/
