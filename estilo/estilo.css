@@ -38,7 +38,7 @@ para o texto ficar legivel*/
 /*====CABEÇALHO====*/
 header{
     text-align: center;
-    color: aliceblue;
+    color: rgb(172, 140, 247);
     margin-bottom: 40px;
 }
 header h1{
@@ -109,8 +109,8 @@ transition: transform 0.5s ease;
 .btn{
     display: inline-block;
     padding: 8px 19px;
-    background-color: red;
-    color: white;
+    background-color: rgb(204, 159, 255);
+    color: rgb(191, 135, 243);
     text-decoration: none;
     border-radius: 30px;
     font-size: 0.85rem;
@@ -118,7 +118,7 @@ transition: transform 0.5s ease;
     transition: background 0.3s ease;
 }
 .btn:hover{
-     background: #db3030;
+     background: #a567f7;
 
 }
 /*responsivo*/
