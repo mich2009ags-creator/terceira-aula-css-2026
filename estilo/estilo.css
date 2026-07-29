@@ -128,3 +128,14 @@ transition: transform 0.5s ease;
     height: 320px;
 }
 }
+.btn:hover {
+    background: #ff2e2e;
+}
+
+/*===RESPONSIVO===*/
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        height: 320px;
+    }
+}
